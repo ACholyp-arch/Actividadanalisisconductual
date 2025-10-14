@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #FFFAF0;
+    color: #4E342E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #FFDAB9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #D35400;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #D35400;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #FF8C00;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #E67E22;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+.dado {
+    font-size: 50px;
+    margin: 10px;
+}
+
+#papel, #pareja, #caso {
+    margin-top: 10px;
+    font-weight: bold;
+}
